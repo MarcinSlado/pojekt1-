@@ -17,10 +17,17 @@ margin: 0 auto;
 .btn {
     padding: 20px 40px;
     border:  3px solid white;  
-    background: green;
+    background:?????
     font-size: 16px;
-    color: white;  
+    color: rgb(14, 13, 13);  
     } 
+
+            .btn:hover {
+            background-color: white;
+            color: black 
+                     }
+    
+          
 
 
 /*Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/DGyuGsapuc5gGf5KMEEGG3/Projekt-zaliczeniowy-1
