@@ -1,7 +1,7 @@
 @font-face {
 	font-family: Roboto;}
 	
-nav{
+ nav{
     height: 50px;
     background-color: gray; 
 }
@@ -9,28 +9,51 @@ nav{
 width: 960px;
 margin: 0 auto;
 }
-.nav-container{
+.container{
     display: flex;
     justify-content: space-between;
-}
- 
-.btn {
-    padding: 20px 40px;
-    border:  3px solid white;  
-    background:?????
-    font-size: 16px;
-    color: rgb(14, 13, 13);  
-    } 
-
-            .btn:hover {
-            background-color: white;
-            color: black 
-                     }
+    align-items: center;
+    height: 100%
+    }
+    .bg-image {
+        background-image: url("https://i.pinimg.com/736x/d9/79/a1/d979a1cdd670777a9de27ed350ba0215.jpg");
+    }
+    .container {
+        display: flex; 
+        padding: 0px 20px;
+        height: 100%;
+        align-items: center;
+            }
+    .nav-menu-list-item{
+        display: flex; 
+        padding: 0px 20px;
+        height: 100%;
     
-          
+    }
 
 
-/*Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/DGyuGsapuc5gGf5KMEEGG3/Projekt-zaliczeniowy-1
+  .nav-menu-list-item {
+  height: 100%;
+  float: right;
+  display: table;  
+}
+.nav-menu-list{
+    display: flex
+}
+  
+.btn{
+    margin-top: 100px
+}
+  .btn: { 
+  hover 
+  background-color: white;
+  color: black 
+       }
+    
+       
+/
+
+/Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/DGyuGsapuc5gGf5KMEEGG3/Projekt-zaliczeniowy-1
 Czcionka, której używamy to Roboto i jest do znalezienia na portalu Google Fonts (https://fonts.google.com)
 Ikony, z których będziesz korzystać znajdziesz w paczce FontAwesome (https://fontawesome.com/)
 Przygotuj kontener o rozmiarze 960px (szerokość), który będzie zawsze na środku - to w nim umieszczaj treść
