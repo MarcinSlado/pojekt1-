@@ -32,7 +32,11 @@ html {font-family: Roboto;
         background-position: center;
         background-size: cover;
     }
-
+    .header-background {
+        height: 500px;
+        width: 100%;
+        background-color: rgba(0, 0green, 0blue, 0,5);
+    }
     
    .btn{
     margin-top: 100px
@@ -53,7 +57,9 @@ html {font-family: Roboto;
         
           }
       
-
+.foto-wrapper{
+flex-wrap:
+}
 
 /* /Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/DGyuGsapuc5gGf5KMEEGG3/Projekt-zaliczeniowy-1 */
 Czcionka, której używamy to Roboto i jest do znalezienia na portalu Google Fonts (https://fonts.google.com)
