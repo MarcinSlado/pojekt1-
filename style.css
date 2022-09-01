@@ -22,8 +22,8 @@ html {font-family: Roboto;
         height: 100%;
         align-items: center;
         }
-        .nav-menu-list{
-            display: flex;
+.nav-menu-list{
+display: flex;
 }
     .header-background {
         background-image: url("https://i.pinimg.com/736x/d9/79/a1/d979a1cdd670777a9de27ed350ba0215.jpg");
@@ -41,25 +41,35 @@ html {font-family: Roboto;
    .btn{
     margin-top: 100px
 }
-  .btn: { 
-  hover 
+  .btn:hover { 
   background-color: white;
   color: black 
-       }
-    
-       .box {
-        width: 80%;
-        margin: 0 auto;
-        height: 500 px;
-        border: 2px solid red; 
-        display: flex;
-        flex-wrap: wrap; 
-        
-          }
-      
-.foto-wrapper{
-flex-wrap:
 }
+    
+.box {
+width: 80%;
+margin: 0 auto;
+height: 500 px;
+border: 2px solid red; 
+display: flex;
+flex-wrap: wrap; 
+}
+.foto-wrapper {
+width: 250px;
+height: 250px;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsZ0IbvKsPISciJeQ14yjay5obr_Ir-mIPxPCEWPf4Uja7tVeX4YcwS31qAKJ-Min0uEo&usqp=CAU");
+}
+
+.package6 {
+justify-content: center ;    
+height: 20px;
+width: 20px;
+border-width: 5px;
+border-color: blue;
+} 
 
 /* /Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/DGyuGsapuc5gGf5KMEEGG3/Projekt-zaliczeniowy-1 */
 Czcionka, której używamy to Roboto i jest do znalezienia na portalu Google Fonts (https://fonts.google.com)
