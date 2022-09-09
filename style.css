@@ -1,86 +1,172 @@
- nav{
-    height: 50px;
-    background-color: gray; 
+nav {
+  height: 50px;
+  background-color: gray;
 }
-.container{
-width: 960px;
-margin: 0 auto;
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
----------------------------
-html {font-family: Roboto;
+html {
+  font-famiy: Roboto;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: roboto;
+  font-size: 18 px;
+  font-weight: 700;
+}
+.title section {
+  font-size: 36px;
+  font-weight: 700px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 700px;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 700px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 700px;
+}
+h4 {
+  font-size: 42px;
+  font-weight: 500px;
+}
 
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%
-    }
-.nav-menu-list-item{
-        display: flex; 
-        padding: 0px 20px;
-        height: 100%;
-        align-items: center;
-        }
-.nav-menu-list{
-display: flex;
+/* --------------------------- */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
-    .header-background {
-        background-image: url("https://i.pinimg.com/736x/d9/79/a1/d979a1cdd670777a9de27ed350ba0215.jpg");
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    .header-background {
-        height: 500px;
-        width: 100%;
-        background-color: rgba(0, 0green, 0blue, 0,5);
-    }
-    
-   .btn{
-    margin-top: 100px
+.nav-menu-list-item {
+  display: flex;
+  padding: 0px 20px;
+  height: 100%;
+  align-items: center;
 }
-  .btn:hover { 
+.nav-menu-list {
+  display: flex;
+}
+.header-background {
+  background-image: url("https://i.pinimg.com/736x/d9/79/a1/d979a1cdd670777a9de27ed350ba0215.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header-background {
+  height: 500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0, 5);
+}
+.btn {
+  margin-top: 100px;
+}
+.btn:hover {
+  transition-duration: 1s;
   background-color: white;
-  color: black 
+  color: black;
 }
-    
 .box {
-width: 80%;
-margin: 0 auto;
-height: 500 px;
-border: 2px solid red; 
-display: flex;
-flex-wrap: wrap; 
+  width: 80%;
+  margin: 0 auto;
+  height: 500 px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
 }
+.section {
+  padding: 50px 0;
+}
+.employe {
+  display: flex;
+  align-items: center;
+}
+.employe:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
 .foto-wrapper {
-width: 250px;
-height: 250px;
-border-radius: 50%;
-background-repeat: no-repeat;
-background-position: center;
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsZ0IbvKsPISciJeQ14yjay5obr_Ir-mIPxPCEWPf4Uja7tVeX4YcwS31qAKJ-Min0uEo&usqp=CAU");
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://media1.popsugar-assets.com/files/thumbor/SXH6LlAxyRmTNmdu9Cty1zCEQ1s/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/04/24/807/n/1922153/192c83f14e6a964f_thumb_temp298278811366827453/i/Why-Gwyneth-Paltrow-Deserves-Most-Beautiful-Woman-Label.jpg");
+}
+.offers-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.package6 {
-justify-content: center ;    
-height: 20px;
-width: 20px;
-border-width: 5px;
-border-color: blue;
-} 
+.offers-wrapper{
+overflow: hidden;
+padding: 0;
+}
 
+
+.package6:hover {
+  transform: scale(1.05);
+  transition-duration: 3s
+}
+.package6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 240px;
+  width: 240px;
+  border-width: 5px;
+  background-color: aqua;
+  margin-top: 50px;
+}
+.footer-container {
+  height: 50px;
+  background-color: gray;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  bottom:0
+  width:100%
+
+
+  /* #footer { 
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:60px;		
+		background:#b5fbbd;
+	}*/
+
+  
 /* /Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/DGyuGsapuc5gGf5KMEEGG3/Projekt-zaliczeniowy-1 */
-Czcionka, której używamy to Roboto i jest do znalezienia na portalu Google Fonts (https://fonts.google.com)
+/* Czcionka, której używamy to Roboto i jest do znalezienia na portalu Google Fonts (https://fonts.google.com)
 Ikony, z których będziesz korzystać znajdziesz w paczce FontAwesome (https://fontawesome.com/)
 Przygotuj kontener o rozmiarze 960px (szerokość), który będzie zawsze na środku - to w nim umieszczaj treść
+
 Pierwsza z sekcji powinna zajmować 100% wysokości okna przeglądarki (vh) 
 Po najechaniu na przycisk na stronie głównej (z tłem), spraw, że jego tło stanie się białe, a tekst czarny (border pozostaje bez zmian). Zmiana powinna być płynna i trwać sekundę. Przycisk po kliknięciu powinien nas przenieść do sekcji “oferta”. transition;
+
 Spraw aby przyciski w nawigacji “o nas” oraz “oferta” przenosiły użytkownika w odpowiednie miejsce na stronie przy zachowaniu płynnego scrolla. Przycisk “kontakt” powinien być “disabled” czyli nieaktywny (ustaw odpowiedni kursor). cursor: not-allowed
 Zdjęcie w tle na stronie tytułowej może być dowolnym zdjęciem o rozmiarze maksymalnie 1920x1080 i wadze nieprzekraczającej 400 KB (możesz użyć Lorem Picsum). Pamiętaj, że musisz nałożyć na nie kolejnego diva, który je częściowo przykryje - będzie “cieniem”. Robi się to po to aby tekst na zdjęciu był bardziej czytelny (kontrast).
 Zdjęcia “pracowników” powinny być zdjęciami przedstawiającymi osoby o rozmiarze maksymalnie 500x500. Twoim zadaniem jest ustawić je jako zdjęcie tła diva, który jest okrągły. Pamiętaj, że zdjęcie powinno dopasować się rozmiarem do diva oraz wycentrować w pionie i poziomie.
 W zakładce “o nas” elementy z pracownikami powinny mieć wspólną klasę, ale mieć jeden modyfikator, który sprawia, że każdy nieparzysty zaczyna się zdjęciem z lewej, a każdy parzysty zdjęciem z prawej strony. nth-of-type(odd) / nth-of-type(even)
 Paddingi we wszystkich sekcjach powinny być ujednolicone (górny i dolny powinny być takie same, a treść sekcji powinna zaczynać się i kończyć w tej samej linii).
 W boksach, nieważne jaką ilość treści podamy, powinna być zawsze wyśrodkowana w pionie i poziomie.
-Po najechaniu na boxy, spraw aby powiększyły się o 5% przy pomocy funkcji transform: scale(1.05). Spraw aby animacja była płynna i trwała pół sekundy
+Po najechaniu na boxy, spraw aby powiększyły się o 5% przy pomocy funkcji transform: scale(1.05). Spraw aby animacja była płynna i trwała pół sekundy */
