@@ -17,26 +17,25 @@ body {
 }
 .title section {
   font-size: 36px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 h1 {
   font-size: 36px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 h2 {
   font-size: 35px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 h3 {
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 h4 {
   font-size: 42px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
-. 
 /* --------------------------- */
 .nav-container {
   display: flex;
@@ -60,10 +59,17 @@ h4 {
   background-position: center;
   background-size: cover;
 }
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-start;
+}
 .header-background {
   height: 500px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0, 5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .btn {
@@ -71,7 +77,6 @@ h4 {
   transition-duration: 1s;
   padding: 20px 40px;
   border: 1px solid black;
-
 }
 .btn:hover {
   background-color: white;
@@ -94,7 +99,6 @@ h4 {
   align-items: center;
 }
 
-
 .foto-wrapper {
   flex-shrink: 0;
   width: 250px;
@@ -110,10 +114,8 @@ h4 {
   flex-wrap: wrap;
   gap: 30px;
   overflow: hidden;
-  padding: 50px 
+  padding: 50px;
 }
-
-
 
 .package6 {
   display: flex;
@@ -124,7 +126,7 @@ h4 {
   border-width: 5px;
   background-color: aqua;
   margin-top: 50px;
-  transition-duration: 3s
+  transition-duration: 3s;
 }
 
 .footer-container {
@@ -133,34 +135,32 @@ h4 {
   justify-content: space-between;
   align-items: center;
   height: 100px;
+}
 
-  @media screen (min-width: 768px){
-    .container
+@media screen and (min-width: 768px) {
+  .container;
+}
 
+@media screen and (min-width: 1024px) {
+}
 
-  }
-   
-  
-  @media screen and {min-width: 1024px){
-    .container {
-      Width: 960px;
-      .employe {
-        flex-direction: row;
-      }
+.container {
+  width: 960px;
+}
 
-      .employe:nth-of-type(even) {
-        flex-direction: row-reverse;
-        text-align: right;
-      }
-      .package6:hover {
-        transform: scale(1.05);
-        
-      }
+.employe {
+  flex-direction: row;
+}
 
-  }
+.employe:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.package6:hover {
+  transform: scale(1.05);
+}
 
-
-  /* #footer { 
+/* #footer { 
 		position:absolute;
 		bottom:0;
 		width:100%;
@@ -168,7 +168,6 @@ h4 {
 		background:#b5fbbd;
 	}*/
 
-  
 /* /Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/DGyuGsapuc5gGf5KMEEGG3/Projekt-zaliczeniowy-1 */
 /* Czcionka, której używamy to Roboto i jest do znalezienia na portalu Google Fonts (https://fonts.google.com)
 Ikony, z których będziesz korzystać znajdziesz w paczce FontAwesome (https://fontawesome.com/)
