@@ -3,11 +3,11 @@ nav {
   background-color: gray;
 }
 .container {
-  width: 960px;
+  width: 96%;
   margin: 0 auto;
 }
 html {
-  font-famiy: Roboto;
+  font-family: Roboto;
   scroll-behavior: smooth;
 }
 body {
@@ -36,10 +36,7 @@ h4 {
   font-weight: 500px;
 }
 
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
+. 
 /* --------------------------- */
 .nav-container {
   display: flex;
@@ -68,11 +65,15 @@ h4 {
   width: 100%;
   background-color: rgba(0, 0, 0, 0, 5);
 }
+
 .btn {
   margin-top: 100px;
+  transition-duration: 1s;
+  padding: 20px 40px;
+  border: 1px solid black;
+
 }
 .btn:hover {
-  transition-duration: 1s;
   background-color: white;
   color: black;
 }
@@ -85,16 +86,14 @@ h4 {
   flex-wrap: wrap;
 }
 .section {
-  padding: 50px 0;
+  padding: 50px 220;
 }
 .employe {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
-.employe:nth-of-type(even) {
-  flex-direction: row-reverse;
-  text-align: right;
-}
+
 
 .foto-wrapper {
   flex-shrink: 0;
@@ -103,25 +102,19 @@ h4 {
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("https://media1.popsugar-assets.com/files/thumbor/SXH6LlAxyRmTNmdu9Cty1zCEQ1s/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/04/24/807/n/1922153/192c83f14e6a964f_thumb_temp298278811366827453/i/Why-Gwyneth-Paltrow-Deserves-Most-Beautiful-Woman-Label.jpg");
+  background-image: url(https://www.pinterest.com/pin/527343437601585081/);
 }
 .offers-wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-}
-
-.offers-wrapper{
-overflow: hidden;
-padding: 0;
+  overflow: hidden;
+  padding: 50px 
 }
 
 
-.package6:hover {
-  transform: scale(1.05);
-  transition-duration: 3s
-}
+
 .package6 {
   display: flex;
   flex-wrap: wrap;
@@ -131,19 +124,40 @@ padding: 0;
   border-width: 5px;
   background-color: aqua;
   margin-top: 50px;
-}
-.footer-container {
-  height: 50px;
-  background-color: gray;
+  transition-duration: 3s
 }
 
 .footer-container {
+  background-color: gray;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  bottom:0
-  width:100%
+
+  @media screen (min-width: 768px){
+    .container
+
+
+  }
+   
+  
+  @media screen and {min-width: 1024px){
+    .container {
+      Width: 960px;
+      .employe {
+        flex-direction: row;
+      }
+
+      .employe:nth-of-type(even) {
+        flex-direction: row-reverse;
+        text-align: right;
+      }
+      .package6:hover {
+        transform: scale(1.05);
+        
+      }
+
+  }
 
 
   /* #footer { 
