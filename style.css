@@ -13,7 +13,7 @@ html {
 body {
   font-family: roboto;
   font-size: 18 px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .title section {
   font-size: 36px;
@@ -25,12 +25,12 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
   font-weight: bold;
 }
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   font-weight: bold;
 }
@@ -41,6 +41,7 @@ h4 {
 }
 
 /* --------------------------- */
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -52,6 +53,9 @@ h4 {
   padding: 0px 20px;
   height: 100%;
   align-items: center;
+}
+.decoration {
+  text-decoration: none;
 }
 .nav-menu-list {
   display: flex;
@@ -95,7 +99,7 @@ h4 {
   flex-wrap: wrap;
 }
 section {
-  padding: 50px 200px;
+  padding: 50px 220px;
 }
 .employe {
   display: flex;
@@ -112,6 +116,7 @@ section {
   background-position: center;
   background-image: url("https://media-exp1.licdn.com/dms/image/C5103AQFJbrkGXry_LQ/profile-displayphoto-shrink_400_400/0/1516847026660?e=1668643200&v=beta&t=tkBlU2IIeSRqnjkthmSdaVZspuYwfkaAKCokrxtIsLw");
 }
+
 .offers-wrapper {
   display: flex;
   justify-content: center;
@@ -131,6 +136,9 @@ section {
   background-color: aqua;
   margin-top: 50px;
   transition-duration: 3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .background-grey {
   background-color: darkgray;
@@ -144,17 +152,29 @@ section {
   height: 100px;
 }
 
+.new-offer {
+  position: relative;
+}
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  top: -10px;
+  left: -10px;
+  border-radius: 50%;
+}
 @media screen and (min-width: 768px) {
-  .container;
+  .container {
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
 }
-
-.container {
-  width: 960px;
-}
-
 .employe {
   flex-direction: row;
 }
