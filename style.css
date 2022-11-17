@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 700;
   font-weight: bold;
   word-wrap: break-word;
@@ -51,11 +51,9 @@ h3 {
 }
 .workers {
   margin-bottom: 70px;
-  max-width: 100%;
-  font-size: 36px;
-  font-weight: 100%;
-  width: 501px;
-  height: 42px;
+  color: aliceblue;
+  font-size: 26px;
+  font-weight: bold;
 }
 .nav-container {
   display: flex;
@@ -153,6 +151,7 @@ section {
 }
 .wrapping {
   display: flex;
+  flex-flow: row wrap;
 }
 
 .package6 {
@@ -209,8 +208,7 @@ section {
     width: 90%;
   }
   .nav-menu-list-item {
-    display: flex;
-    flex-flow: row wrap;
+  display: flex;
   }
 }
 
@@ -223,7 +221,6 @@ section {
     flex-direction: row-reverse;
     text-align: right;
   }
-
   .package6:hover {
     transform: scale(1.05);
   }
