@@ -7,18 +7,13 @@ nav {
   font-weight: bold;
   background-color: #4e4e4e;
 }
-.container {
-  width: 96%;
-  margin: 0 auto;
-}
 body {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 400px;
 }
-.title section {
-  font-size: 36px;
-}
+
 h1 {
+  margin-top: 20vh;
   font-size: 36px;
   font-weight: bold;
   word-wrap: break-word;
@@ -30,10 +25,6 @@ h1 {
   font-style: normal;
   font-family: 'Roboto';
 }
-.sentens {
-  color: aliceblue;
-}
-
 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -44,10 +35,24 @@ h3 {
   font-weight: bold;
   padding-bottom: 15px;
 }
-.workers {
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.title section {
+  font-size: 36px;
+}
+
+.sentens {
+  color: aliceblue;
+}
+
+.company-profile {
   margin-bottom: 70px;
   color: aliceblue;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: bold;
 }
 .nav-container {
@@ -57,6 +62,7 @@ h3 {
   height: 100%;
   color: aliceblue;
 }
+
 .stop {
   cursor: not-allowed;
 }
@@ -136,45 +142,20 @@ section {
   flex-flow: row wrap;
 }
 
-.package-six-squaeres {
+.offer-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+
   height: 240px;
   width: 240px;
   border-width: 5px;
   background-color: aqua;
   font-size: 24px;
-
   transition-duration: 1s;
   align-items: center;
   justify-content: center;
 }
-.background-grey {
-  background-color: #405d78;
-}
-.background-footer {
-  background-color: #4e4e4e;
-}
-.container-footer-writing {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.fa-brands {
-  font-size: 30px;
-}
-.fa-instagram {
-  margin-right: 20px;
-}
-
 .new-offer {
-  position: relative;
   flex-direction: column;
 }
 .circle {
@@ -186,6 +167,28 @@ section {
   left: -10px;
   border-radius: 50%;
 }
+.background-grey {
+  background-color: #405d78;
+}
+.background-footer {
+  background-color: #4e4e4e;
+}
+.footer-writing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.fa-brands {
+  font-size: 30px;
+}
+.fa-instagram {
+  margin-right: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 90%;
@@ -197,7 +200,7 @@ section {
 
 @media screen and (min-width: 1024px) {
   .employe,
-  .container-footer-container {
+  .container {
     flex-direction: row;
   }
   .employe:nth-of-type(even) {
