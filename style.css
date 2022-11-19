@@ -4,21 +4,19 @@ html {
 }
 nav {
   height: 50px;
-  background-color: gray;
   font-weight: bold;
+  background-color: #4e4e4e;
 }
 .container {
   width: 96%;
   margin: 0 auto;
 }
 body {
-  font-family: "Roboto";
   font-size: 18px;
   font-weight: 400;
 }
 .title section {
   font-size: 36px;
-  font-weight: 700;
 }
 h1 {
   font-size: 36px;
@@ -27,25 +25,22 @@ h1 {
   color: aliceblue;
   width: 100%;
   max-width: 580px;
-  height: 46.11px;
   display: flex;
   align-items: center;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 .sentens {
   color: aliceblue;
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 36px;
   font-weight: bold;
   word-wrap: break-word;
 }
 h3 {
   font-size: 18px;
-  font-weight: 700;
   font-weight: bold;
   padding-bottom: 15px;
 }
@@ -70,17 +65,18 @@ h3 {
   color: aliceblue;
 }
 .nav-menu-list {
-  display: flex;
+  display: none;
 }
 .nav-menu-list-item {
   margin-left: 46px;
 }
 .header-background {
-  background-image: url("https://i.pinimg.com/736x/d9/79/a1/d979a1cdd670777a9de27ed350ba0215.jpg");
-  height: 100vh;
+  background-image: url('https://i.pinimg.com/736x/d9/79/a1/d979a1cdd670777a9de27ed350ba0215.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 .header-container-content {
   height: 50%;
@@ -96,12 +92,6 @@ h3 {
   height: 100%;
   align-items: flex-start;
 }
-.header-background {
-  height: 100vh;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .btn {
   transition-duration: 1s;
   padding: 13px 50px;
@@ -111,14 +101,7 @@ h3 {
   background-color: white;
   color: black;
 }
-.box {
-  width: 80%;
-  margin: 0 auto;
-  height: 500px;
-  border: 2px solid red;
-  display: flex;
-  flex-wrap: wrap;
-}
+
 section {
   padding: 50px 0;
 }
@@ -139,9 +122,8 @@ section {
 
   margin-right: 30px;
   margin-left: 30px;
-  background-image: url("https://media-exp1.licdn.com/dms/image/C5103AQFJbrkGXry_LQ/profile-displayphoto-shrink_400_400/0/1516847026660?e=1668643200&v=beta&t=tkBlU2IIeSRqnjkthmSdaVZspuYwfkaAKCokrxtIsLw");
+  background-image: url('./images/gwyneth-paltrow.png');
 }
-
 .offers-wrapper {
   display: flex;
   justify-content: center;
@@ -154,7 +136,7 @@ section {
   flex-flow: row wrap;
 }
 
-.package6 {
+.package-six-squaeres {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -162,6 +144,7 @@ section {
   width: 240px;
   border-width: 5px;
   background-color: aqua;
+  font-size: 24px;
 
   transition-duration: 1s;
   align-items: center;
@@ -170,10 +153,10 @@ section {
 .background-grey {
   background-color: #405d78;
 }
-.backgr {
-  background-color: gray;
+.background-footer {
+  background-color: #4e4e4e;
 }
-.container-footer-container {
+.container-footer-writing {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -198,7 +181,7 @@ section {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: red;
+  background: #e07a64;
   top: -10px;
   left: -10px;
   border-radius: 50%;
@@ -207,8 +190,8 @@ section {
   .container {
     width: 90%;
   }
-  .nav-menu-list-item {
-  display: flex;
+  .nav-menu-list {
+    display: flex;
   }
 }
 
